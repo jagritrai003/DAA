@@ -2,7 +2,6 @@ package week0;
 
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner14;
 
 public class linear {
 
@@ -31,10 +30,8 @@ public class linear {
           System.out.println("No. of comparison is "+comparison);
           break;
         }
-        else{
-          System.out.println("Not present");
+        
           comparison++;
-        }
       }
 
       t--;
