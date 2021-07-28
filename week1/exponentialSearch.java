@@ -13,11 +13,7 @@ public class exponentialSearch {
     }
     while(i<arr.length&&arr[i]<=k)
     {
-      comparison++;
-      if(arr[i]==k)
-      {
-        return comparison;
-      }
+      
       i=i*2;
     }
     for(int j=i/2;arr[j]<=k;j++)
